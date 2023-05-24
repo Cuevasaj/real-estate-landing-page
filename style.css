@@ -9,15 +9,21 @@
   align-items: flex-start;
   color: #e5e7eb;
   size: 40px;
+  padding-left: 100px;
 }
 
 .hero-section {
   display: flex;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
 }
 .main-text {
   color: #f9faf8;
   font-weight: bolder;
   size: 48;
+  display: flex;
+  /* align-self */
 }
 .nav-bar {
   background-color: #1f2937;
@@ -28,8 +34,59 @@
   gap: 20px;
 }
 
+.info-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.information-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rounded-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #3882f6;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rounded-button:hover {
+  background-color: #3882f6;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .quote-section {
   background-color: #e5e7eb;
   font-size: 26px;
   font-weight: bolder;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 75px;
 }
