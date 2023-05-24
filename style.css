@@ -1,0 +1,35 @@
+.chad {
+  background-color: #1f2937;
+  height: 500px;
+  width: fit-content;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  color: #e5e7eb;
+  size: 40px;
+}
+
+.hero-section {
+  display: flex;
+}
+.main-text {
+  color: #f9faf8;
+  font-weight: bolder;
+  size: 48;
+}
+.nav-bar {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  gap: 20px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  font-size: 26px;
+  font-weight: bolder;
+}
