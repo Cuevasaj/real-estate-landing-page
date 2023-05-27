@@ -18,6 +18,15 @@
   display: flex;
   flex-direction: column;
 }
+
+.hero-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+}
+
 .main-text {
   color: #f9faf8;
   font-weight: bolder;
@@ -25,6 +34,13 @@
   display: flex;
   /* align-self */
 }
+
+.hero-section .hero-picture {
+  flex: 1;
+  border: 2px solid blueviolet;
+  margin: 10px;
+}
+
 .nav-bar {
   background-color: #1f2937;
   color: #e5e7eb;
