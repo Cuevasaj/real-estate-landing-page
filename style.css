@@ -9,6 +9,7 @@
   align-items: flex-start;
   color: #e5e7eb;
   font-size: 45px;
+  padding-top: 25px;
   padding-left: 100px;
 }
 
@@ -28,6 +29,9 @@
 
 .main-title {
   font-size: xx-large;
+  font-weight: bold;
+  color: #e5e7eb;
+  padding-bottom: 25px;
 }
 .main-text {
   color: #f9faf8;
@@ -46,6 +50,8 @@
 .nav-bar {
   background-color: #1f2937;
   color: #e5e7eb;
+  font-size: 25px;
+  font-weight: bold;
   display: flex;
   align-items: flex-end;
   justify-content: end;
@@ -59,10 +65,11 @@
   justify-content: space-between;
 }
 .information-header {
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 25px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .rounded-button {
